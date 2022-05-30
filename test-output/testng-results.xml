@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-25T10:53:23 CEST" name="Suite" finished-at="2022-05-25T10:53:26 CEST" duration-ms="3537">
+  <suite started-at="2022-05-27T17:11:37 CEST" name="Suite" finished-at="2022-05-27T17:11:41 CEST" duration-ms="4255">
     <groups>
     </groups>
-    <test started-at="2022-05-25T10:53:23 CEST" name="Test" finished-at="2022-05-25T10:53:26 CEST" duration-ms="3537">
+    <test started-at="2022-05-27T17:11:37 CEST" name="Test" finished-at="2022-05-27T17:11:41 CEST" duration-ms="4255">
       <class name="RECHERCHER.RechercherNonPassant">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:RECHERCHER.RechercherNonPassant@25d250c6]" started-at="2022-05-25T10:53:23 CEST" name="beforeTest" finished-at="2022-05-25T10:53:24 CEST" duration-ms="1351" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:RECHERCHER.RechercherNonPassant@25d250c6]" started-at="2022-05-27T17:11:37 CEST" name="beforeTest" finished-at="2022-05-27T17:11:39 CEST" duration-ms="2109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="f()[pri:0, instance:RECHERCHER.RechercherNonPassant@25d250c6]" started-at="2022-05-25T10:53:25 CEST" name="f" finished-at="2022-05-25T10:53:25 CEST" duration-ms="433" status="PASS">
+        <test-method signature="f()[pri:0, instance:RECHERCHER.RechercherNonPassant@25d250c6]" started-at="2022-05-27T17:11:40 CEST" name="f" finished-at="2022-05-27T17:11:41 CEST" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:RECHERCHER.RechercherNonPassant@25d250c6]" started-at="2022-05-25T10:53:26 CEST" name="afterTest" finished-at="2022-05-25T10:53:26 CEST" duration-ms="209" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:RECHERCHER.RechercherNonPassant@25d250c6]" started-at="2022-05-27T17:11:41 CEST" name="afterTest" finished-at="2022-05-27T17:11:41 CEST" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- RECHERCHER.RechercherNonPassant -->
       <class name="RECHERCHER.RechercherPassant">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:RECHERCHER.RechercherPassant@4df50bcc]" started-at="2022-05-25T10:53:24 CEST" name="beforeTest" finished-at="2022-05-25T10:53:25 CEST" duration-ms="810" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:RECHERCHER.RechercherPassant@4df50bcc]" started-at="2022-05-27T17:11:39 CEST" name="beforeTest" finished-at="2022-05-27T17:11:40 CEST" duration-ms="924" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="f()[pri:0, instance:RECHERCHER.RechercherPassant@4df50bcc]" started-at="2022-05-25T10:53:25 CEST" name="f" finished-at="2022-05-25T10:53:26 CEST" duration-ms="529" status="PASS">
+        <test-method signature="f()[pri:0, instance:RECHERCHER.RechercherPassant@4df50bcc]" started-at="2022-05-27T17:11:41 CEST" name="f" finished-at="2022-05-27T17:11:41 CEST" duration-ms="406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:RECHERCHER.RechercherPassant@4df50bcc]" started-at="2022-05-25T10:53:26 CEST" name="afterTest" finished-at="2022-05-25T10:53:26 CEST" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:RECHERCHER.RechercherPassant@4df50bcc]" started-at="2022-05-27T17:11:41 CEST" name="afterTest" finished-at="2022-05-27T17:11:41 CEST" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

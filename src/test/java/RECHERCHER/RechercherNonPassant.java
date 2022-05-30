@@ -15,7 +15,7 @@ public class RechercherNonPassant {
   }
   @BeforeTest
   public void beforeTest() {
-	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\DOS REIS\\eclipse-workspace\\FNAC\\src\\test\\resources\\drivers\\chromedriver.exe"); 
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\DOS REIS\\eclipse-workspace\\FNAC-DARTY\\src\\test\\resources\\drivers\\chromedriver.exe"); 
 	  driver = new ChromeDriver();
   }
 
