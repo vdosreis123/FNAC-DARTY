@@ -6,7 +6,6 @@ node {
     echo "RUN"
     }
     stage('Test') {
-    echo "TEST"
     echo "${env.BRANCH_NAME}"
     }
   }
