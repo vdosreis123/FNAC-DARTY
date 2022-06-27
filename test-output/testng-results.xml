@@ -1,39 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-27T17:11:37 CEST" name="Suite" finished-at="2022-05-27T17:11:41 CEST" duration-ms="4255">
+  <suite started-at="2022-06-27T10:22:11 CEST" name="Default suite" finished-at="2022-06-27T10:22:18 CEST" duration-ms="6654">
     <groups>
     </groups>
-    <test started-at="2022-05-27T17:11:37 CEST" name="Test" finished-at="2022-05-27T17:11:41 CEST" duration-ms="4255">
+    <test started-at="2022-06-27T10:22:11 CEST" name="Default test" finished-at="2022-06-27T10:22:18 CEST" duration-ms="6654">
       <class name="RECHERCHER.RechercherNonPassant">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:RECHERCHER.RechercherNonPassant@25d250c6]" started-at="2022-05-27T17:11:37 CEST" name="beforeTest" finished-at="2022-05-27T17:11:39 CEST" duration-ms="2109" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:RECHERCHER.RechercherNonPassant@2ea227af]" started-at="2022-06-27T10:22:11 CEST" name="beforeTest" finished-at="2022-06-27T10:22:13 CEST" duration-ms="1578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="f()[pri:0, instance:RECHERCHER.RechercherNonPassant@25d250c6]" started-at="2022-05-27T17:11:40 CEST" name="f" finished-at="2022-05-27T17:11:41 CEST" duration-ms="443" status="PASS">
+        <test-method signature="HomePage()[pri:0, instance:RECHERCHER.RechercherNonPassant@2ea227af]" started-at="2022-06-27T10:22:14 CEST" name="HomePage" finished-at="2022-06-27T10:22:15 CEST" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:RECHERCHER.RechercherNonPassant@25d250c6]" started-at="2022-05-27T17:11:41 CEST" name="afterTest" finished-at="2022-05-27T17:11:41 CEST" duration-ms="164" status="PASS">
+        </test-method> <!-- HomePage -->
+        <test-method signature="SearchNoPassed()[pri:0, instance:RECHERCHER.RechercherNonPassant@2ea227af]" started-at="2022-06-27T10:22:15 CEST" name="SearchNoPassed" finished-at="2022-06-27T10:22:15 CEST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchNoPassed -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:RECHERCHER.RechercherNonPassant@2ea227af]" started-at="2022-06-27T10:22:18 CEST" name="afterTest" finished-at="2022-06-27T10:22:18 CEST" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- RECHERCHER.RechercherNonPassant -->
       <class name="RECHERCHER.RechercherPassant">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:RECHERCHER.RechercherPassant@4df50bcc]" started-at="2022-05-27T17:11:39 CEST" name="beforeTest" finished-at="2022-05-27T17:11:40 CEST" duration-ms="924" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:RECHERCHER.RechercherPassant@4386f16]" started-at="2022-06-27T10:22:13 CEST" name="beforeTest" finished-at="2022-06-27T10:22:14 CEST" duration-ms="1113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="f()[pri:0, instance:RECHERCHER.RechercherPassant@4df50bcc]" started-at="2022-05-27T17:11:41 CEST" name="f" finished-at="2022-05-27T17:11:41 CEST" duration-ms="406" status="PASS">
+        <test-method signature="HomePage()[pri:0, instance:RECHERCHER.RechercherPassant@4386f16]" started-at="2022-06-27T10:22:15 CEST" name="HomePage" finished-at="2022-06-27T10:22:17 CEST" duration-ms="1754" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:RECHERCHER.RechercherPassant@4df50bcc]" started-at="2022-05-27T17:11:41 CEST" name="afterTest" finished-at="2022-05-27T17:11:41 CEST" duration-ms="158" status="PASS">
+        </test-method> <!-- HomePage -->
+        <test-method signature="SearchPassed()[pri:0, instance:RECHERCHER.RechercherPassant@4386f16]" started-at="2022-06-27T10:22:17 CEST" name="SearchPassed" finished-at="2022-06-27T10:22:18 CEST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchPassed -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:RECHERCHER.RechercherPassant@4386f16]" started-at="2022-06-27T10:22:18 CEST" name="afterTest" finished-at="2022-06-27T10:22:18 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- RECHERCHER.RechercherPassant -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

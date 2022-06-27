@@ -3,13 +3,6 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RECHERCHER.RechercherNonPassant">
-        <methods>
-          <include name="f"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-        </methods>
-      </class> <!-- RECHERCHER.RechercherNonPassant -->
       <class name="LOCALISER.LocaliserPassant">
         <methods>
           <include name="f"/>
@@ -21,7 +14,8 @@
         <methods>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="f"/>
+          <include name="SearchPassed"/>
+          <include name="HomePage"/>
         </methods>
       </class> <!-- RECHERCHER.RechercherPassant -->
       <class name="LOCALISER.LocaliserNonPassant">
@@ -31,6 +25,27 @@
           <include name="beforeTest"/>
         </methods>
       </class> <!-- LOCALISER.LocaliserNonPassant -->
+      <class name="LOGIN.LoginPassant">
+        <methods>
+          <include name="f"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- LOGIN.LoginPassant -->
+      <class name="LOGIN.LoginNonPassant">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- LOGIN.LoginNonPassant -->
+      <class name="RECHERCHER.RechercherNonPassant">
+        <methods>
+          <include name="f"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- RECHERCHER.RechercherNonPassant -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
